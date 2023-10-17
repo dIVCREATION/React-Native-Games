@@ -1,8 +1,8 @@
  import React, { useEffect, useState } from 'react';
 import { StyleSheet, Text, View, Dimensions, TouchableWithoutFeedback, ImageBackground } from 'react-native';
-import Bird from './.expo/components/Birds';
-import Obstacles from './.expo/components/Obstacles';
-import  image from './.expo/components/backimg.jpg';
+import Bird from './components/Birds';
+import Obstacles from './components/Obstacles';
+import  image from './components/backimg.jpg';
 
 export default function App() {
   const screenWidth = Dimensions.get("screen").width
